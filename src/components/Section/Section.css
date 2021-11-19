@@ -1,0 +1,35 @@
+.section_container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.section_income, .section_expense {
+    width: calc(50% - 20px);
+}
+
+h3 {
+    text-align: left;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(196, 193, 196);
+}
+.section_income_h3 {
+    color: rgb(43,80,127);
+    font-weight: normal;
+}
+
+.section_expenses_h3 {
+    color: rgb(160,75,24);
+    font-weight: normal;
+}
+
+/* .passed-students li, .failed-students li {
+    list-style: none;
+    padding: 15px 9px;
+    position: relative; 
+    border-bottom: 1px solid rgb(196, 193, 196);
+} */
